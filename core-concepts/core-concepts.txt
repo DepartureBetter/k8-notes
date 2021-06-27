@@ -11,4 +11,7 @@ WORKER : Host applications as containers.
       - Kubelet : Like the caption of the ship, communicates with the master nodes, loading unloading of cotainers(apps), registers the node in the cluster.
                   When it receives the order to load a pod or app, it requests the container runtime (DOCKER) to pull the require image and run an instance.
       - Kube-proxy : runs on each node, looks for new services. and creates rules on each node to forward traffic to that services. This is a virtual networking                       solution for pods to communicate between each other. Uses IP TABLE rules.
+      - Kubectl :  kubectl is a client for the Kubernetes API, kubectl is your cockpit to control Kubernetes.
+      - PODS : the smallest unit of a Kubernetes application, a pod encapsulates the cointainer(app) nad its helper app.
       
+    
